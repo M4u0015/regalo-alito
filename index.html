@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi Alito 💛</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Flores que caen -->
+  <div id="petalos"></div>
+
+  <!-- Botón inicial para activar música en celular -->
+  <div id="inicio">
+    <div class="inicio-card">
+      <div class="mini-flor">🌻</div>
+      <h1>Para  mi alito 💛</h1>
+      <p>Tengo un pequeñito detalle para ti...</p>
+      <button id="abrir">Abrir mi detallito 🌻</button>
+    </div>
+  </div>
+
+  <main id="regalo" class="oculto">
+    <section class="tarjeta">
+
+      <div class="texto">
+        <p class="titulo">Floresitas amarillas para el amor de mi vida:</p>
+
+        <p id="mensaje"></p>
+
+        <p class="firma">— Con todo mi amor, tu bebegrandote 💛</p>
+
+        <div class="contador">
+          <p>Mi amor o nuestro amor por ti comenzó hace...</p>
+          <span id="tiempo"></span>
+        </div>
+      </div>
+
+      <div class="arbol">
+        <div class="corazon-flores" id="corazonFlores"></div>
+        <div class="tronco"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <audio id="musica" loop>
+    <!-- Coloca aquí tu archivo: musica.mp3 -->
+    <source src="musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
