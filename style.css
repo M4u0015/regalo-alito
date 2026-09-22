@@ -239,7 +239,7 @@ button:active {
   .tarjeta {
     min-height: auto;
     grid-template-columns: 1fr;
-    padding: 28px 18px 35px;
+    padding: 28px 18px 50px;
     border-radius: 28px;
   }
 
